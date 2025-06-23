@@ -186,6 +186,7 @@ img {
   gap: 24px;
   padding-bottom: 120px;
   padding-left: 0;
+  margin: 0 auto;
 }
 .team-list-item {
   background-color: #fff;
@@ -213,6 +214,8 @@ img {
 
 /* Section our portfolio start */
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -223,14 +226,13 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   align-items: stretch;
   justify-content: flex-start;
   padding-left: 0;
