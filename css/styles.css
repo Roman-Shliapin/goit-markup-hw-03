@@ -67,6 +67,7 @@ img {
 }
 .navigation-list-item-link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 .navigation-list-item-link:hover {
   color: #404bbf;
