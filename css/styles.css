@@ -34,10 +34,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 .navigation-logo {
   color: #4d5ae5;
@@ -90,6 +90,7 @@ img {
 }
 .address-list-item-link {
   color: #434455;
+  padding: 24px 0;
 }
 .address-list-item-link:hover {
   color: #404bbf;
