@@ -239,12 +239,17 @@ img {
   margin: 0;
   padding-bottom: 120px;
 }
-.portfolio-list-item {
+.portfolio-list:first-child {
   width: calc((100% - 48px) / 3);
 }
+.portfolio-list-item {
+  /* width: calc((100% - 48px) / 3); */
+}
+
 .portfolio-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-list-item-image {
 }
@@ -254,14 +259,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0;
+  margin-bottom: 8px;
 }
 .portfolio-list-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 8px;
 }
 /* Section our portfolio end */
 
