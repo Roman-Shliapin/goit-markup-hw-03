@@ -47,6 +47,7 @@ img {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .navigation-logo-part-color {
   color: #2e2f42;
@@ -55,6 +56,8 @@ img {
   display: flex;
   gap: 40px;
   margin: 0;
+  align-items: center;
+  padding: 24px 0;
 }
 .navigation-list-item {
   color: #2e2f42;
