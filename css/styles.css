@@ -19,7 +19,7 @@ img {
 .container {
   /* max-width: 1138px;
   margin: 24px 156px; */
-  max-width: 1138px;
+  max-width: 1158px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -28,6 +28,9 @@ img {
 
 /* Header start */
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +46,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  padding-right: 70px;
+  margin-right: 76px;
 }
 .navigation-logo-part-color {
   color: #2e2f42;
@@ -75,6 +78,7 @@ img {
 .adress-list {
   display: flex;
   gap: 40px;
+  align-items: flex-end;
 }
 .adress-list-item {
   font-weight: 400;
