@@ -189,6 +189,9 @@ img {
   padding-left: 0;
   margin: 0 auto;
 }
+.team-box {
+  padding: 32px o;
+}
 .team-list:first-child {
   width: calc((100% - 72px) / 4);
 }
