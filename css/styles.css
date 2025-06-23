@@ -158,6 +158,9 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+.advantages-list:first-child {
+  width: calc((100% - 72px) / 4);
+}
 .advantages-list-item {
 }
 .advantages-list-item-title {
@@ -166,6 +169,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-list-item-text {
   font-weight: 400;
